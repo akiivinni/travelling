@@ -1,0 +1,106 @@
+<html>
+    <head>
+        <style>
+            .header
+            {
+                padding: 20px;
+                text-align: left;
+                 background: #1abc9c;
+                color: white;
+                 font-size: 16px;
+            }
+            .Heroimage
+            {
+                background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./travel.jpg");
+                height: 100px;
+                background-position: center;
+                 background-repeat:repeat-y;
+                 background-size: cover;
+                 position: relative;
+            }
+            button
+            {
+                color:chocolate;
+                border: #1abc9c;
+                background-color:cornflowerblue;
+                
+
+            }
+            * {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+        </style>
+    </head>
+    <title>travelling</title>
+    <body>
+        <div class = "header">
+            <a href = "#home">Home</a>
+            <a href = "#login">Login</a>
+            <a href= "#Contact us">Contact us</a>
+
+        </div>
+        <div class = "Heroimage">
+            <h2>Welcome to Our Travel Website</h2>
+            <p>Discover your next adventure with us</p>
+            <center><button>Explore....</button></center>
+            
+        </div>
+        <br/>
+        <p>Travel is the movement of people between distant geographical locations. Travel can be done by foot, bicycle, automobile, train, boat, bus, airplane, ship or other means, with or without luggage, and can be one way or round trip. </p>
+        <center><a href ="#download" download>Download zip file</a></center>
+        <div class = "row">
+            <div class = "column">
+                <img src = "travel.jpg" alt = "travel" style = "width:100%">
+            </div>
+            <div class = "Column">
+                <img src = "./travel2.jpg" alt = "travel" style = "width:100%">
+
+            </div>
+            <div class = "column">
+                <img src = "./travel3.jpg" alt = "travel" style = "width:100%">
+            </div>
+        </div>
+        <h2>Get Instant discounts</h2>
+        <p>Simply sign into your Booking.com account and look for the blue Genius logo to save</p>
+        <form>
+            <input type ="button" name = "Sign in" value = "sign in">
+            <button>Register</button>
+        </form>
+        <h1>How does it Works</h1>
+        <details>
+            <summary>
+                    
+                Getting your key
+        
+            </summary>
+            You’ll be able to communicate directly with your host to find out how to get your keys. Whether you meet them personally or simply use a lockbox, it’ll be easy for you to access your property and start enjoying your holiday!
+        </details>
+        <details>
+            <summary>
+                communication host
+            </summary>
+            <P>You can always contact your host with any questions leading up to your trip. Perhaps you want to let them know what time you’re arriving or you have a special request – enjoy stress-free communication at all times.</P>
+        </details>
+        <details>
+            <summary>CheckIn</summary>
+            <p>Maybe you’ve always stayed in hotels and you’re not sure how to ‘check-in’ to an apartment or holiday home. Don’t worry, other guests have felt the same! That’s why hosts provide all the information you need to get you settled in.</p>
+        </details>
+        <h1>Where are you going</h1>
+        <p>Check in date</p>
+        <input type ="datetime-local">
+
+    </body>
+</html>
